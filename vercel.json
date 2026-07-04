@@ -1,7 +1,9 @@
 {
-  "functions": {
-    "api/send-telegram.js": {
-      "runtime": "nodejs22.x"
-    }
-  }
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"cleanUrls": true,
+	"functions": {
+		"api/send-telegram.js": {
+			"maxDuration": 10
+		}
+	}
 }
