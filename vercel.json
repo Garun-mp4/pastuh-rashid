@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/send-telegram.js": {
+      "runtime": "nodejs22.x"
+    }
+  }
+}
